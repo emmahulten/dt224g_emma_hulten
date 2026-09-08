@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <!--Grundinställningar och utseende via CSS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lite mer smör</title>
+    <style>
+        header {
+            background-color: #eccc6e;
+            background-image: url('images/header.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: 30px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            color: #716f35;
+            font-size: 48px;
+            text-align: center;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        h4 {
+            font-size: 30px;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        section {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        main {
+            background-color: #f5f5dc;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        p {
+            color: black;
+        }
+
+        table {
+            background-color: #eccc6e;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #eccc6e;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Sidhuvud-->
+    <header>
+        <p>Meny</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="hobby.html">Recept mm</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Huvudinnehåll : Recept och tips-->
+    <main>
+        <h1>Recept & tips</h1>
+
+        <!--Section- Rubrik, textstycke och två länkar-->
+        <section>
+            <h2> Innan vi börjar!</h2>
+            <p> Innan vi börjar stöka runt i köket finns det ett viktigt steg att börja med. Det är inte tvätta händer och
+                sätta upp håret jag tänker på, även om det också är bra.
+                Det är musiken! Stöket i köket ska ske med kärlek och glädje, och vad är ett bättre verktyg för detta än
+                musik? Alla har vi olika smaker, både vad det gäller mat och musik.
+                Men mitt tips är 60-tal eller 70-tals musik. Så nu börjar du med att fixa lite musik.
+                Vill du testa på min musik har du mina Spotify-länkar här; <a
+                    href="https://open.spotify.com/playlist/37i9dQZF1DXaKIA8E7WcJj?si=e87c07afe2654abb" target="_blank"
+                    rel="noopener noreferrer"><em>All out
+                        60's</em></a>
+                & <a href="https://open.spotify.com/playlist/37i9dQZF1DWTJ7xPn4vNaz?si=9eb07ff6854347a0" target="_blank"
+                    rel="noopener noreferrer"><em>All out
+                        70's</em></a>.
+            </p>
+        </section>
+        <br>
+
+        <!--Article - Pizza recept. Med tabell för olika mått per portion (4,6,8)-->
+        <article>
+            <h3>Pizza</h3>
+            <p>Pizzadeg (Leila Lindholm´s grundrecept) </p>
+            <p>Detta är ett recept jag regelbundet återgår till. När jag reser till New York och hälsar på min
+                värdfamilj är hemmagjord pizza alltid efterfrågat, det är ett högt betyg ifrån en New Yorker.
+                På min sida finner du grundreceptet och en tabell med ingredienser per portion.
+                Receptet kommer som sagt ifrån Leila Lindholm, grundrecept och inspiration för "toppings" finner du på
+                hennes hemsida, <a href="https://www.leila.se/pizza/" target="_blank" rel="noopener noreferrer"><strong>här</strong></a>
+            </p>
+            <p> I detta recept används durumvete, det är detta mjöl som ger pizzan frasig kant och botten. Det är dock
+                inte alltid jag har det hemma, så du kan skippa durumvete och byta detta till vetemjöl.</p>
+            <br>
+            <img src="images/pizza1.png" alt="Bild på Pizza" width="300" height="300">
+            <img src="images/pizza2.png" alt="Bild på Pizza" width="300" height="300">
+            <img src="images/pizza3.png" alt="Bild på Pizza" width="300" height="300">
+            <p>Du behöver:</p>
+            <!--Använder "border" då vi inte ännu lärt oss lösning via css-->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th> Ingredienser </th>
+                        <th> 4 Pizzor </th>
+                        <th> 6 Pizzor </th>
+                        <th> 8 Pizzor </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Färsk jäst </td>
+                        <td> 15 g </td>
+                        <td> 23 g </td>
+                        <td> 30 g </td>
+                    </tr>
+                    <tr>
+                        <td> Ljummet vatten </td>
+                        <td> 3 dl </td>
+                        <td> 4,5 dl </td>
+                        <td> 6 dl </td>
+                    </tr>
+                    <tr>
+                        <td> Strösocker </td>
+                        <td> 2 tsk </td>
+                        <td> 3 tsk </td>
+                        <td> 4 tsk </td>
+                    </tr>
+                    <tr>
+                        <td> Flingsalt </td>
+                        <td> 1 tsk </td>
+                        <td> 1,5 tsk </td>
+                        <td> 2 tsk </td>
+                    </tr>
+                    <tr>
+                        <td> Olivolja </td>
+                        <td> 2 msk </td>
+                        <td> 3 msk </td>
+                        <td> 4 msk </td>
+                    </tr>
+                    <tr>
+                        <td> Durumvete </td>
+                        <td> 1 dl </td>
+                        <td> 1,5 dl </td>
+                        <td> 2 dl </td>
+                    </tr>
+                    <tr>
+                        <td> Vetemjöl </td>
+                        <td> 5 1/2-6 dl </td>
+                        <td> 8 1/4-9 dl </td>
+                        <td> 11-12 dl </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Har du inte Durumvete byter du detta till Vetemjöl</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p>Gör såhär:</p>
+            <ol>
+                <li>Smula jästen i en bunke och lös upp den i vattnet. Tillsätt strösocker, flingsalt och olivolja.</li>
+                <li>Tillsätt durumvete och lite vetemjöl i taget och knåda degen i maskin i cirka 10 minuter tills den
+                    är elastisk.</li>
+                <li>Strö över lite vetemjöl och jäs degen i bunken under bakduk till dubbel storlek i cirka 30 minuter.
+                </li>
+                <li>Sätt ugnen på 250 grader.</li>
+                <li>Dela degen i bitar (4,6 eller 8 beroende på hut mycket deg du gjort) och kavla ut dem tunt på mjölat
+                    bakbord.</li>
+                <li>Smaksätt med valfri fyllning.</li>
+                <li>Grädda i mitten av ugnen i cirka 5 minuter.</li>
+            </ol>
+            <br>
+            <p><strong>Buon Appetito !</strong></p>
+        </article>
+        <!--Article- Recept för potatisfrallor.-->
+        <article>
+            <h4>Potatorolls</h4>
+            <p>Potatisfrallor med rosmarin & honungssmör</p>
+            <p>Varje år om kring den amerikanska högtiden Thanksgiving har jag och mina närmaste vänner
+                "Friendsgiving"-helg. Vi äter samma sak varje år och alla är lika exalterade.
+                Det som alla längtar efter lika mycket, stora som små, det är potatisfrallorna. Här har vi ett recept
+                som verkligen säger "lite mer smör". En otrolig fralla som i
+                konsistensen påminner om brioche eller challah, fast med en hint av rosmarin. Och det bästa av allt,
+                honungssmöret.
+                Frallorna penslas med honungssmör med det räcker även till att bre på efter gräddning.
+            </p>
+            <p>Jag använder samma recept varje år, och varje år glömmer jag att det är i amerikanska mått. Nu har jag
+                äntligen översatt detta till svenska mått nedan.
+                Vill ni kika på originalet hittar ni receptet <a
+                    href="https://www.simplyrecipes.com/recipes/potato_dinner_rolls/" target="_blank"
+                    rel="noopener noreferrer"><strong>här</strong></a>.
+            </p>
+            <p> Observera! Detta recept tar ca 3 timmar totalt. Degen ska jäsas i två omgångar.</p>
+            <br>
+            <img src="images/potatoroll.jpg" alt="Bild på potatisfrallor i ugnsform." width="230" height="300">
+            <img src="images/thxgiving.jpg"
+                alt="En in zoomad bild på tallrik med text för varje rätt. Tryffelpotatismos, kyckling, gravy, stuvad spenat, potatisfralla, ungsbakad sötpotatis och haricoverts."
+                width="230" height="300">
+            <br>
+            <p>Till frallorna: </p>
+            <ul>
+                <li> 1,2 dl vatten, rumstempererat </li>
+                <li> ca 7 g torrjäst </li>
+                <li> 1 tsk strösocker </li>
+                <li> ca 0,8 dl strösocker </li>
+                <li> ca 2,4 dl potatismos </li>
+                <li> 0,6 dl mjölk </li>
+                <li> ca 85 g saltat smör, smält och avsvalnat </li>
+                <li> 2 stora ägg </li>
+                <li> ca 2½ tsk finhackad färsk rosmarin </li>
+                <li> 1½ tsk salt </li>
+                <li> ca 540–600 g vetemjöl </li>
+            </ul>
+            <p>Till Honungssmör: </p>
+            <ul>
+                <li> ca 55–60 g saltat smör, rumstempererat </li>
+                <li> 2 msk honung </li>
+                <li> lite salt till toppen </li>
+            </ul>
+            <p>Gör såhär: </p>
+            <ol>
+                <li> Starta jästen - Blanda det rumstempererade vattnet med jästen och 1 tsk socker i bunken till en köksassistent. Låt stå ungefär 5 minuter. </li>
+                <li> Blanda degen - Tillsätt resten av sockret, potatismos, mjölk, smält smör, ägg, rosmarin och salt. Rör ihop. Tillsätt först cirka 540 g vetemjöl och blanda tills du har en ganska lös och rufsig deg. </li>
+                <li> Knåda - Knåda med degkrok på medellåg hastighet i ungefär 5–7 minuter. Degen ska bli slät och elastisk och börja släppa från bunkens sidor. Den får fortfarande vara lite klibbig och fastna något i botten.
+                    Om den är väldigt kladdig efter några minuters knådning, tillsätt mer mjöl lite i taget. Försök att inte ösa i mjöl direkt – en lite mjukare deg ger fluffigare frallor. </li>
+                <li> Första jäsningen - Lägg degen i en lätt smord bunke och täck. Låt jäsa varmt i ungefär 1 timme, eller tills degen blivit ungefär dubbelt så stor. </li>
+                <li> Forma frallorna - Klä en ugnsform på ungefär 23 × 33 cm med bakplåtspapper och smörj den lätt. Häll ut degen på ett lätt mjölat bakbord och dela den i 16–20 lika stora bitar. 
+                    Forma varje bit till en rund bulle och lägg dem med skarven nedåt i formen. </li>
+                <li> Andra jäsningen - Täck formen och låt frallorna jäsa ytterligare ungefär 1 timme, tills de blivit ordentligt puffiga och nästan dubblerats i storlek. Sätt ugnen på 175°C över-/undervärme ungefär 15 minuter innan de jäst färdigt. </li>
+                <li> Grädda - Grädda mitt i ugnen i 20–25 minuter, tills frallorna fått fin gyllenbrun färg. Har du en termometer ska innertemperaturen vara ungefär 93°C. </li>
+                <li> Honungssmör - Rör ihop det mjuka smöret och honungen till en jämn blandning. Pensla honungssmöret över frallorna medan de fortfarande är varma och strö över lite salt. Låt svalna en liten stund och servera. </li>
+            </ol>
+            <p><strong>Buon Appetito !</strong></p>
+        </article>
+
+    </main>
+
+    <!--Sidfot - med copyrightrad samt länk till kontaktsidan-->
+    <footer>
+        <p>&copy; 2026 Emma Hultén <a href="kontakt.html">Kontakt</a></p>
+        <img src="images/mer_smor.png" alt="Logotyp för webbplatsen: Ett öppet smör paket med texten, Lite mer smör"
+            width="100" height="100">
+    </footer>
+</body>
+
+</html>

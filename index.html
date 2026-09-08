@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <!--Grundinställningar och utseende via CSS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lite mer smör</title>
+    <style>
+        header {
+            background-color: #eccc6e;
+            background-image: url('images/header.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: 30px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            color: #716f35;
+            font-size: 48px;
+            text-align: center;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Instrument Serif', serif;
+        }
+
+        section {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        main {
+            background-color: #f5f5dc;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        p {
+            color: black;
+        }
+
+        table {
+            background-color: #eccc6e;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #eccc6e;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Sidhuvud-->
+    <header>
+
+        <!--Meny- nav med osorterad lista-->
+        <p>Meny</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="hobby.html">Recept mm</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Huvudinnehåll :Index/Startsida - Introduktion till webbplatsens syfte och "författaren".
+        Innehåller tre rubriker, två textstycken och tre bilder med alt text.
+    -->
+    <main>
+        <h1>Välkommen till <em>Lite mer smör</em>!</h1>
+
+        <h2>Var har du hamnat nu?</h2>
+        <p> Jo, du har hamnat på <em>Lite mer smör</em>. En webbplats som samlat ihop de beprövade favoritrecept jag återkommit till under åren. 
+            Vissa är översatta från amerikanska recept, vissa har jag hittat på själv och andra är klassiker från svenska kokböcker. 
+            Testa ett recept, vettja! Jag lovar att du inte kommer bli besviken.
+        </p>
+        <br>
+        <h3>Vem är jag då?</h3>
+        <p> Jag heter Emma Hultén. Jag är en snart 30-årig Sundsvallsbo, som bor tillsammans med min sambo Elias och vår galna katt. 
+            Anledningen till att matlagning och bakning är så viktigt för mig, liksom för många andra, är att det är ett sätt att visa kärlek till andra och till sig själv. 
+            Det är få saker i livet som kan toppa känslan när man tar en tugga av det man själv lagat och hjärnan skriker "DET HÄR ÄR SÅ BRA! JAG ÄR SÅ BRA, BÄST! Huuur kan jag vara så bra!?". 
+            Det som kanske kommer nära, det är när ens närmaste vänner hyschar rummet för att första tuggan måste få vara i fokus. 
+            En sak som är obligatorisk när man ska laga mat eller baka är "ful"-dansandet. Till det rekommenderar jag i princip vad som helst från 60- till 70-tal.
+        </p>
+        <img src="images/emma_elias.png"
+            alt="Ett foto på författaren Emma och hennes sambo Elias. Emma tittar på Elias, Elias ler och tittar in i kameran."
+            width="300" height="300">
+        <img src="images/emma.png"
+            alt="Ett foto på Emma. Hon har jeansjacka och sitter i ett träd, tittar och ler in i kameran." width="300"
+            height="300">
+        <img src="images/celine.png"
+            alt="Ett foto på en tuxedo katt. Katten ligger i ett kattträd och tittar över kameran. Under bilden står det att katten heter Celine och är 14 år."
+            width="300" height="300">
+    </main>
+
+    <!--Sidfot - med copyrightrad samt länk till kontaktsidan-->
+    <footer>
+        <p>&copy; 2026 Emma Hultén <a href="kontakt.html">Kontakt</a></p>
+        <img src="images/mer_smor.png" alt="Logotyp för webbplatsen: Ett öppet smör paket med texten, Lite mer smör"
+            width="100" height="100">
+    </footer>
+</body>
+
+</html>
