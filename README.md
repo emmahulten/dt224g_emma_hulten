@@ -5,8 +5,8 @@ Projektet är byggt med:
 - HTML
 - CSS
 ## 📰 Publicerade versioner
-“Vilken plattform - “länk”
-“Vilken plattform - “länk”
+[Netlify](https://calm-torte-192002.netlify.app/)
+[GitHub Pages](https://emmahulten.github.io/dt224g_emma_hulten/)
 
 ## 🔎 Git - Frågor & Svar
 1. **Vad är skillnaden mellan git add och git commit?**
